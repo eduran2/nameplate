@@ -10,10 +10,31 @@ article {
 
 h1 {
     font-size: 10em;
-    text-align: center;
+    text-align:s center;
     text-transform: uppercase;
 }
 
+.char1,
+.char9,
+.char15 {
+    background: orange;
+    box-shadow: inset 0 0 8px #fff;
+    display: inline-block;
+    padding: .25em;
+    border-bottom: 10 solid #fff;
+}
+
+.char1 {
+    transform: rotate(-15deg);
+}
+
+.char9 {
+    transform: rotate(30deg);
+}
+
+.char15 {
+    transform: rotate(45deg);
+}
 
 /********************
 MEDIA QUERIES

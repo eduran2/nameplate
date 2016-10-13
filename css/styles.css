@@ -25,15 +25,15 @@ h1 {
 }
 
 .char1 {
-    transform: rotate(-15deg);
+    transform: rotate(5deg)scale(.75);
 }
 
 .char9 {
-    transform: rotate(30deg);
+    transform: rotate(15deg)scale(1.25);
 }
 
 .char15 {
-    transform: rotate(45deg);
+    transform: rotate(10deg);
 }
 
 /********************

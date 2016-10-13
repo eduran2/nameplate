@@ -2,5 +2,5 @@
 $('h1').lettering();
 
 //Make Backstretch GO!!
-$.backstretch('img/pnf.jpg')
+$.backstretch('/img/bg.jpg');
 

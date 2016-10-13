@@ -1,0 +1,29 @@
+/********************
+YOUR STYLES
+*******************/
+
+article {
+    background: grey;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+
+/********************
+MEDIA QUERIES
+*******************/
+
+/* Desktop */
+@media (min-width: 1200px) {
+    
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+
+}
+
+/* Mobile */
+@media (min-width: 480px) {
+
+}

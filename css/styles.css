@@ -8,6 +8,12 @@ article {
     padding: 3em;
 }
 
+h1 {
+    font-size: 10em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 /********************
 MEDIA QUERIES

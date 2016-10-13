@@ -90,7 +90,7 @@ h1 {
 }
 
 
-img:hover {
+article img:hover {
     animation: rubberBand 1s infinite;
 }
 

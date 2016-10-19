@@ -7,19 +7,40 @@ article {
     padding: 3em;
 }
 
-body {
-    background: white;
-    margin: auto;
-}
-
 h1 {
     background: rgba(225,225,225,.5);
+    display: block;
     margin: auto;
     padding: 1em;
     color: black;
     font-size: 4em;
     text-align: center;
     text-transform: uppercase;
+}
+
+body {
+    background: white;
+    margin: auto;
+}
+
+
+main img {
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+p {
+    background: rgba(225,225,225,.5);
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+    padding-top: 1.5em;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: auto:
 }
 
 h3 {
@@ -29,30 +50,35 @@ h3 {
     font-size: 2em;
     text-transform: uppercase;
 }
+
+nav li {
+    display: inline-block;
+   margin: auto;
+}
+
+/* Starting Nav */
+nav a:link,
+nav a:visited {
+  background: rgba(34,139,34,.5);
+  color: white;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+/* Ending Nav */
+nav a:hover,
+nav a:active {
+  background: white;
+  color: green;
+  margin-left: .5em;
+}
+
 ul {
     background: rgba(225,225,225,.5);
     padding: 2em;
 }
 
-li {
-    font-size: 1.2em;
-    margin: auto;
-    display: inline-block;
-}
-
-p {
-    background: rgba(225,225,225,.5);
-    text-transform: uppercase;
-    padding: 1em;
-    font-size: 1.5em;
-    text-align: center;
-    height: 100px;
-    width: auto:
-}
-
-main{
-    margin: auto;
-}
 
 
 
@@ -65,13 +91,12 @@ main {
 }
 
 section {
-  background: white;
-  border: 5px solid rgba(34,139,34,.5);
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  border: 5px solid rgba(225,225,225,1);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  display:inline-block;
   width: 400px;
   height: 300px;
 }

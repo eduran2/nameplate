@@ -9,21 +9,83 @@ article {
 
 body {
     background: white;
+    margin: auto;
 }
 
 h1 {
-    background: white;
+    background: rgba(225,225,225,.5);
+    margin: auto;
+    padding: 1em;
     color: black;
     font-size: 4em;
     text-align: center;
     text-transform: uppercase;
 }
 
+h3 {
+    background: white;
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+ul {
+    background: rgba(225,225,225,.5);
+    padding: 2em;
+}
+
+li {
+    font-size: 1.2em;
+    margin: auto;
+    display: inline-block;
+}
+
 p {
+    background: rgba(225,225,225,.5);
+    text-transform: uppercase;
+    padding: 1em;
+    font-size: 1.5em;
     text-align: center;
     height: 100px;
     width: auto:
 }
+
+main{
+    margin: auto;
+}
+
+
+
+
+/* Masonry Styles */
+
+main {
+  margin: 0 auto;
+  width: 50%;
+}
+
+section {
+  background: white;
+  border: 5px solid rgba(34,139,34,.5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 300px;
+}
+
+.venti {
+  height: 400px;
+  width: 200;
+}
+
+
+
+
+
+
 
 /*First Frame*/
 /*

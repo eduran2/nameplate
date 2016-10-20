@@ -24,6 +24,7 @@ body {
 
 
 main img {
+    margin: auto;
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
 }
@@ -68,7 +69,7 @@ nav a:visited {
 /* Ending Nav */
 nav a:hover,
 nav a:active {
-  background: white;
+  background: rgba(225,225,225,.25);
   color: green;
   margin-left: .5em;
 }

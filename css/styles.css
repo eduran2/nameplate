@@ -23,12 +23,6 @@ body {
 }
 
 
-main img {
-    margin: auto;
-    border-top-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-}
-
 p {
     background: rgba(225,225,225,.5);
     text-transform: uppercase;

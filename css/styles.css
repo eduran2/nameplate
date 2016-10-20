@@ -57,6 +57,18 @@ nav li {
 }
 
 
+
+
+
+
+
+
+
+
+
+/* LINKS */
+
+
 /* Starting Nav */
 
 nav a:link,
@@ -81,6 +93,18 @@ nav a:active {
 ul {
     padding: 1em;
 }
+
+
+/*LINKS END*/
+
+
+
+
+
+
+
+
+
 
 
 /* Masonry Styles */
@@ -112,7 +136,7 @@ section {
 
 .char1,
 .char9 {
-    background: orange;
+    background: rgba(30, 144, 225, .5);
     box-shadow: inset 0 0 8px #fff;
     display: inline-block;
     padding: .25em;

@@ -8,11 +8,11 @@ article {
 }
 
 h1 {
-    background: rgba(225,225,225,.5);
-    display: block;
+    background: rgba(0,0,0,.5);
+    display: inline-block;
     margin: auto;
     padding: 1em;
-    color: black;
+    color: white;
     font-size: 4em;
     text-align: center;
     text-transform: uppercase;
@@ -25,16 +25,16 @@ body {
 
 p {
     background: rgba(225,225,225,.5);
-    text-transform: uppercase;
     margin: auto;
+    text-transform: uppercase;
     display: block;
-    padding-top: 1.5em;
+    padding-top: 1.7em;
+    padding-left: 1em;
+    padding-right: 1em;
     font-size: 24px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     height: 100px;
-    width: auto:
+    width: auto;
 }
 
 h3 {

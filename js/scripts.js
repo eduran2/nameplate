@@ -2,7 +2,7 @@
 $('h1').lettering();
 
 //Make Backstretch GO!!
-$.backstretch('/img/bg.jpg');
+$.backstretch('nameplate/img/bg.jpg');
 
 // Masonry
 $('main').masonry({

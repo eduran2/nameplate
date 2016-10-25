@@ -67,7 +67,14 @@ img {
 
 }
 
-
+li img {
+    background: rgba(225,225,225,.5);
+    border-radius: 50%;
+    display: block;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+}
 
 
 
@@ -81,8 +88,6 @@ img {
 
 nav a:link,
 nav a:visited {
-    background: rgba(30, 144, 225, .5);
-    color: white;
     text-decoration: none;
     padding: 1em;
     transition: all .5s;
@@ -93,8 +98,6 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-    background: rgba(225, 225, 225, .25);
-    color: dodgerblue;
     margin-left: .5em;
 }
 
@@ -141,12 +144,19 @@ section {
 /*First Frame*/
 
 .char1,
-.char9 {
-    background: rgba(30, 144, 225, .5);
-    box-shadow: inset 0 0 8px #fff;
+.char2,
+.char3,
+.char4,
+.char5,
+.char6,
+.char7,
+.char9,
+.char10,
+.char11,
+.char12,
+.char13{
+    color: white;
     display: inline-block;
-    padding: .25em;
-    border-bottom: 20px solid #fff;
     transition: transform .5s;
 }
 
@@ -154,15 +164,63 @@ section {
 /*Last Frame*/
 
 .char1:hover {
-    transform: rotate(5deg)scale(.75);
+    color: gold;
+    transform: rotate(360deg)scale(1.25);
+}
+
+.char2:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char3:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char4:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char5:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char6:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char7:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
 }
 
 .char9:hover {
-    transform: rotate(15deg)scale(1.25);
+    color: gold;
+    transform: rotate(360deg)scale(1.25);
 }
 
-.char15:hover {
-    transform: rotate(10deg);
+.char10:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char11:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char12:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
+}
+
+.char13:hover {
+    color: gold;
+    transform: rotate(360deg)scale(.75);
 }
 
 
@@ -204,7 +262,7 @@ section {
     animation-name: rubberBand;
 }
 
-article img:hover {
+li img:hover {
     animation: rubberBand 1s infinite;
 }
 

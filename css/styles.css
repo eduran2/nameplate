@@ -85,7 +85,8 @@ li img {
     align-content: center;
 }
 
-
+.venti {transition: all .2s ease-in-out;}
+.venti:hover { transform: scale(1.1)}
 
 
 
